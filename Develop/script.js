@@ -1,14 +1,16 @@
 // Assignment code here
+
 // The following code represents all possible characters to use in the password. Special characters provided by https://owasp.org/www-community/password-special-characters
 var lowerCase = "abcdefghijklmnopqrstuvwxyz";
 var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var number = "0123456789";
 var symbol = "!'#$%&()*+,-./:;<>=?@[]^`{}~";
-var answers = [];
-
+var answer = [];
+var randomPass = "";
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
+
 
 // Write password to the #password input
 function writePassword() {
@@ -25,24 +27,24 @@ generateBtn.addEventListener("click", writePassword);
 function generatePassword() {
   var characterLength = prompt('How many characters would you like your password to be? Must contain anywhere between 8-128 characters.')
   if (characterLength < 8 || characterLength > 128 || isNaN(characterLength)) {
-    alert('Invalid! Password must contain a NUMBER anywhere between 8-128 characters. Please do not include letters when choosing password length.');
+    alert('Invalid! Password must contain a length anywhere between 8-128 characters. Please do not include letters when choosing password length.');
     return generatePassword();
   }
   var useUpperCase = confirm('Would you like your password to have uppercase letters?');
   if (useUpperCase === true) {
-    answers.push(upperCase);
+    answer.push(upperCase);
   }
   var useLowerCase = confirm('Would you like your password to have lower case letters?');
   if (useLowerCase === true) {
-    answers.push(lowerCase);
+    answer.push(lowerCase);
   }
   var useNumber = confirm('Would you like your password to have numbers?'); 
   if (useNumber === true) {
-    answers.push(number);
+    answer.push(number);
   }
   var useSymbol = confirm('Would you like your password to have symbols?');
   if (useSymbol === true) {
-    answers.push(symbol);
+    answer.push(symbol);
   }
 
   if (useUpperCase == false && useLowerCase == false && useNumber == false && useSymbol == false) {
@@ -50,7 +52,7 @@ function generatePassword() {
     return generatePassword();
   }
 
-  console.log(answers)
+  console.log(answer)
 
   //initializing password 
   password = ""
@@ -58,16 +60,14 @@ function generatePassword() {
   // This code generates random characters for password 
   for (var i = 0; i < characterLength; i++) {
   // Write the logic in here
-
-
-
-  randomCharacter = math.rndon ;;;,...answers.concat.apply
-
-
-  password = password + randomCharacter 
+    var randomAnswer = answer[math.floor(math.random() * answer.length)];
+    var randomCharacter = randomAnswer[math.floor(math.random() * randomAnswer.length)];
+    randomPass += randomCharacter
+  }
+  // password = password + randomCharacter 
+  return randomPass;
   }
 
  
 
   
-}
