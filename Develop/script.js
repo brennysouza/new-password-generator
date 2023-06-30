@@ -51,6 +51,34 @@ function generatePassword() {
     return generatePassword();
   }
 
+  if (useUpperCase === false) {
+    var index = answer.indexOf(upperCase);
+    if (index !== -1) {
+      answer.splice(index, 1);
+    }
+  }
+
+  if (useLowerCase === false) {
+    var index = answer.indexOf(lowerCase);
+    if (index !== -1) {
+      answer.splice(index, 1);
+    }
+  }
+
+  if (useNumber === false) {
+    var index = answer.indexOf(number);
+    if (index !== -1) {
+      answer.splice(index, 1);
+    }
+  }
+
+  if (useSymbol === false) {
+    var index = answer.indexOf(symbol);
+    if (index !== -1) {
+      answer.splice(index, 1);
+    }
+  }
+
   console.log(answer);
 
   //initializing password 
