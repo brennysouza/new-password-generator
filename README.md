@@ -17,6 +17,8 @@ button that says "generate password" in order to begin process. Upon clicking, u
 
 [![Watch the video](/Users/brennysouza/bootcamp/new-password-generator/Video/PasswordGeneratorLive.webm)]
 
+<iframe src="https://drive.google.com/file/d/1iEyNSMNQtIgvfZqL7_3GxYlhFLhDQA2d/preview" width="640" height="480"></iframe>
+
 Link to repo:
 https://github.com/brennysouza/new-password-generator.git
 
