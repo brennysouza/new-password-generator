@@ -1,6 +1,7 @@
 // Assignment code here
 
 // The following code represents all possible characters to use in the password. Special characters provided by https://owasp.org/www-community/password-special-characters
+// The answer array is empty in order to store the selected character sets based on the user criteria selection. 
 var lowerCase = "abcdefghijklmnopqrstuvwxyz";
 var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var number = "0123456789";
@@ -8,10 +9,13 @@ var symbol = "!'#$%&()*+,-./:;<>=?@[]^`{}~";
 var answer = [];
 
 // Get references to the #generate element
+// This line of code selects the generate css id selector found in the HTML code. It will assign to the generateBtn variable.
 var generateBtn = document.querySelector("#generate");
 
 
 // Write password to the #password input
+// This code is a function for when the button is clicked, it will retrieve the generated password because of the generate password function
+// The css selector that set for this is the password id and this is set to the generate password function. 
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
