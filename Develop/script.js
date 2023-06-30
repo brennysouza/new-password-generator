@@ -6,7 +6,6 @@ var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var number = "0123456789";
 var symbol = "!'#$%&()*+,-./:;<>=?@[]^`{}~";
 var answer = [];
-var randomPass = "";
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
@@ -52,20 +51,20 @@ function generatePassword() {
     return generatePassword();
   }
 
-  console.log(answer)
+  console.log(answer);
 
   //initializing password 
-  password = ""
+  var password = "";
 
   // This code generates random characters for password 
   for (var i = 0; i < characterLength; i++) {
   // Write the logic in here
-    var randomAnswer = answer[math.floor(math.random() * answer.length)];
-    var randomCharacter = randomAnswer[math.floor(math.random() * randomAnswer.length)];
-    randomPass += randomCharacter
+    var randomAnswer = answer[Math.floor(Math.random() * answer.length)];
+    var randomCharacter = randomAnswer[Math.floor(Math.random() * randomAnswer.length)];
+    password += randomCharacter;
   }
   // password = password + randomCharacter 
-  return randomPass;
+  return password;
   }
 
  
