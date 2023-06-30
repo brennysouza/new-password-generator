@@ -23,4 +23,10 @@ https://github.com/brennysouza/new-password-generator.git
 Link to deployed site:
 
 
+## Credits
+N/A
+
+## License
+Please refer to the license found in the repo. 
+
 
