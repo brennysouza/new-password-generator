@@ -22,7 +22,7 @@ Link to repo:
 https://github.com/brennysouza/new-password-generator.git
 
 Link to deployed site:
-
+https://brennysouza.github.io/new-password-generator/
 
 
 ## Credits
