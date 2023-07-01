@@ -26,13 +26,9 @@ Link to deployed site:
 
 
 ## Credits
-<<<<<<< HEAD
 Starter code provided by (https://github.com/coding-boot-camp/friendly-parakeet)
 Some help with code provided by support staff such as TA's. 
-=======
-Starter code was provided by (https://github.com/coding-boot-camp/friendly-parakeet)
-Some help was received from support staff such as TA's.  
->>>>>>> f6f607d (revised README file)
+
 
 ## License
 Please refer to the license found in the repo. 
