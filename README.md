@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # New Password Generator
 
 ## Description 
