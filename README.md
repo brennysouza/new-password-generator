@@ -24,9 +24,10 @@ https://github.com/brennysouza/new-password-generator.git
 Link to deployed site:
 
 
+
 ## Credits
-Starter code provided by (https://github.com/coding-boot-camp/friendly-parakeet)
-Some help with code provided by support staff such as TA's. 
+- Starter code provided by (https://github.com/coding-boot-camp/friendly-parakeet)
+- Some help with code provided by support staff such as TA's. 
 
 
 ## License
