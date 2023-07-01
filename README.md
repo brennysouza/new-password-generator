@@ -1,8 +1,5 @@
 <<<<<<< HEAD
 # New Password Generator
-=======
-# New Password Generator 
->>>>>>> f6f607d (revised README file)
 
 ## Description 
 I have been tasked to develop a password generator for new, safe, and effective passwords that provides greater security for the sensitive data of my company. It is a simple application where users are able to generate a password within 8-128 characters and include or not inlude criteria such as upper case, lower case, numebrs, and/or symbols. 
